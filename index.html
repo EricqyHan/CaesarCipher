@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Eric's Cipher</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <h1>Eric's Caesar Cipher</h1>
+   <section class="cipher-form">
+      <form action="">
+         <label for="cipher" class="block">Word you want like to encrypt?</label>
+         <input type="cipher" class="block" type="text" placeholder="What do you want to encrypt?">
+         <select name="cipher-number" id="">
+            <option value="zero">0</option>
+            <option value="one">1</option>
+            <option value="two">2</option>
+            <option value="three">3</option>
+            <option value="four">4</option>
+            <option value="five">5</option>
+            <option value="six">6</option>
+            <option value="seven">7</option>
+            <option value="eight">8</option>
+            <option value="nine">9</option>
+            <option value="ten">1</option>
+            <option value="eleven">11</option>
+            <option value="twelve">12</option>
+            <option value="thirteen">13</option>
+            <option value="fourteen">14</option>
+            <option value="fifteen">15</option>
+            <option value="sixteen">16</option>
+            <option value="seventeen">17</option>
+            <option value="eighteen">18</option>
+            <option value="nineteen">19</option>
+            <option value="twenty">20</option>
+            <option value="twenty-one">21</option>
+            <option value="twenty-two">22</option>
+            <option value="twenty-three">23</option>
+            <option value="twenty-four">24</option>
+            <option value="twenty-five">25</option>
+            <option value="twenty-six">26</option>
+         </select>
+      </form>
+      <button id="check" type="button" name="button">Decode</button>
+   </section>
+
+   <section class="cipher-return">
+      <h2>Your Character shift is <span class="cipherShift">0</span>.</h2>
+      <p>And</p>
+      <h2 id="cipherShiftTranslated">The translation is ...</h2>
+   </section>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
