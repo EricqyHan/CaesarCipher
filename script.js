@@ -80,6 +80,6 @@ function rot13(message) {
     }
   });
   inputString.textContent = message.join("");
-  cipherShift.textContent = n;
+  cipherShift.textContent = 13;
   cipherTranslation.textContent = caesarCipher.join("");
 }
