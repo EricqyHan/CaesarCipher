@@ -1,7 +1,24 @@
-.block {
-  display: block;
+form {
+  display: inline;
+}
+
+.rot-13-inline {
+  display: inline;
 }
 
 input {
   width: 250px;
+}
+
+.cipherShift {
+  color: red;
+}
+
+.inputWord {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#cipherShiftTranslated {
+  color: red;
 }
